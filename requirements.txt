@@ -8,3 +8,7 @@ reportlab>=4.1
 watchdog>=4.0
 scikit-learn>=1.4
 joblib>=1.3
+streamlit
+pyyaml
+tqdm
+psutil
