@@ -10,6 +10,9 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
+import sys
+sys.path.append(os.path.dirname(__file__))
+
 from core.smart_analysis import run_smart_analysis
 
 st.set_page_config(page_title="Smart Lab System", layout="wide")
